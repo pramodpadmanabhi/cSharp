@@ -1,0 +1,19 @@
+﻿Shared Resources
+	The CLR assigns each thread its own local memory stack to keep local variables seperate
+	A seperate copy of local variables is created on each thread's memory stack
+
+Thread Schedulers
+	Ensures all active threads are allocated appropriate exexution time
+	1) Single-Processor Computers
+		Timeslicing - Rapidly switching execution between each of the active threads
+					- Typically takes tens of milliseconds in windows
+	2) Multiprocessor Computers
+		  Different threads run code simultaneously on different computers
+	3) Preempted Threads
+		  - Thread that has exeecution interrupted, usually by an external factor such as timeslicing
+		  - Thread has no control over when and here it is preempted
+  
+  Threads vs Processes
+	Threads - Run in parallel within a single process
+			- Share memory (Share Heap Memory) with other threads running in the same application
+	Processes - Are fully isolated from each other
