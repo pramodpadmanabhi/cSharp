@@ -23,7 +23,7 @@ namespace Collections
 
             foreach (var itm in set)
             {
-                Console.WriteLine(itm); ;
+                Console.WriteLine(itm);
             }
         }
         internal void UnionWith()

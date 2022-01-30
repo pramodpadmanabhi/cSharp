@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TPL": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\windows\\"
+    }
+  }
+}
